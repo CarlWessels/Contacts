@@ -1,0 +1,19 @@
+﻿@page
+@model Contacts.Web.Pages.PhoneBooksModel
+@{
+}
+
+@foreach (var item in Model.PhoneBooks)
+{
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.Name)<br />
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Id)<br />
+        </td>
+    </tr>
+}
+<form method="get">
+    <button type="submit" asp-page="./AddPhoneBook">Add PhoneBook</button>
+</form>

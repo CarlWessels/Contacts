@@ -1,0 +1,8 @@
+C:\Users\carlw\source\repos\ABSA Assignment\ContactsService\Contacts.Common\bin\Debug\netcoreapp3.1\Contacts.Common.deps.json
+C:\Users\carlw\source\repos\ABSA Assignment\ContactsService\Contacts.Common\bin\Debug\netcoreapp3.1\Contacts.Common.dll
+C:\Users\carlw\source\repos\ABSA Assignment\ContactsService\Contacts.Common\bin\Debug\netcoreapp3.1\Contacts.Common.pdb
+C:\Users\carlw\source\repos\ABSA Assignment\ContactsService\Contacts.Common\obj\Debug\netcoreapp3.1\Contacts.Common.AssemblyInfoInputs.cache
+C:\Users\carlw\source\repos\ABSA Assignment\ContactsService\Contacts.Common\obj\Debug\netcoreapp3.1\Contacts.Common.AssemblyInfo.cs
+C:\Users\carlw\source\repos\ABSA Assignment\ContactsService\Contacts.Common\obj\Debug\netcoreapp3.1\Contacts.Common.csproj.CoreCompileInputs.cache
+C:\Users\carlw\source\repos\ABSA Assignment\ContactsService\Contacts.Common\obj\Debug\netcoreapp3.1\Contacts.Common.dll
+C:\Users\carlw\source\repos\ABSA Assignment\ContactsService\Contacts.Common\obj\Debug\netcoreapp3.1\Contacts.Common.pdb
