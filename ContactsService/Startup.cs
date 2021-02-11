@@ -40,6 +40,13 @@ namespace Contacts.Service
             //validated as the payload of the token wouldnt carry any information that could be abused. 
             services.AddControllers();
 
+            services.AddCors(o => o.AddPolicy("MyPolicy", builder =>
+            {
+                builder.AllowAnyOrigin()
+                       .AllowAnyMethod()
+                       .AllowAnyHeader();
+            }));
+
             services.Configure<DatabaseConfiguration>(Configuration.GetSection(nameof(DatabaseConfiguration)));
             services.AddScoped(cfg => cfg.GetService<IOptionsSnapshot<DatabaseConfiguration>>().Value);
 
@@ -58,7 +65,7 @@ namespace Contacts.Service
             {
                 app.UseDeveloperExceptionPage();
             }
-
+            app.UseCors("MyPolicy");
             app.UseHttpsRedirection();
 
             app.UseRouting();

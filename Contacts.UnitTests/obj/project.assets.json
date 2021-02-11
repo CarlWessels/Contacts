@@ -6581,11 +6581,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\carlw\\source\\repos\\ABSA Assignment\\ContactsService\\Contacts.UnitTests\\Contacts.UnitTests.csproj",
+      "projectUniqueName": "C:\\Users\\carlw\\source\\repos\\ABSA Assignment\\Contacts\\Contacts.UnitTests\\Contacts.UnitTests.csproj",
       "projectName": "Contacts.UnitTests",
-      "projectPath": "C:\\Users\\carlw\\source\\repos\\ABSA Assignment\\ContactsService\\Contacts.UnitTests\\Contacts.UnitTests.csproj",
+      "projectPath": "C:\\Users\\carlw\\source\\repos\\ABSA Assignment\\Contacts\\Contacts.UnitTests\\Contacts.UnitTests.csproj",
       "packagesPath": "C:\\Users\\carlw\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\carlw\\source\\repos\\ABSA Assignment\\ContactsService\\Contacts.UnitTests\\obj\\",
+      "outputPath": "C:\\Users\\carlw\\source\\repos\\ABSA Assignment\\Contacts\\Contacts.UnitTests\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Microsoft\\Xamarin\\NuGet\\"
@@ -6606,8 +6606,8 @@
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
           "projectReferences": {
-            "C:\\Users\\carlw\\source\\repos\\ABSA Assignment\\ContactsService\\ContactsService\\Contacts.Service.csproj": {
-              "projectPath": "C:\\Users\\carlw\\source\\repos\\ABSA Assignment\\ContactsService\\ContactsService\\Contacts.Service.csproj"
+            "C:\\Users\\carlw\\source\\repos\\ABSA Assignment\\Contacts\\ContactsService\\Contacts.Service.csproj": {
+              "projectPath": "C:\\Users\\carlw\\source\\repos\\ABSA Assignment\\Contacts\\ContactsService\\Contacts.Service.csproj"
             }
           }
         }

@@ -15,19 +15,26 @@ namespace Contacts.Service.Controllers
         private IDatabaseConnection _connection;
         private ILogger<PhonebookEntriesController> _logger;
         private IEntryDataAdapter _entryDA;
+        private IPhoneBookDataAdapter _phoneBookDA;
         public PhonebookEntriesController(IDatabaseConnection connection,
              ILogger<PhonebookEntriesController> logger,
-             IEntryDataAdapter entryDA)
+             IEntryDataAdapter entryDA,
+             IPhoneBookDataAdapter phoneBookDA)
         {
             _connection = connection;
             _logger = logger;
             _entryDA = entryDA;
+            _phoneBookDA = phoneBookDA;
         }
 
         [HttpGet]
         public List<Entry> Get(Guid id)
         {
             _logger.LogDebug("Retrieving all entries for phoneBook {phoneBookId}", id);
+            if (id == Guid.Empty)
+            {
+                id = _phoneBookDA.GetDefaultPhoneBook(_connection).Id;
+            }
             return _entryDA.GetByPhoneBook(id, _connection);
         }
     }

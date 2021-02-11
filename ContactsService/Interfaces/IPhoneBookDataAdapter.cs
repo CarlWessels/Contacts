@@ -14,6 +14,6 @@ namespace Contacts.Service.Interfaces
         public PhoneBook Get(Guid id, IDatabaseConnection connection);
         public List<PhoneBook> Search(string searchText, IDatabaseConnection connection);
         public List<PhoneBook> GetAll(IDatabaseConnection connection);
-
+        public PhoneBook GetDefaultPhoneBook(IDatabaseConnection connection);
     }
 }

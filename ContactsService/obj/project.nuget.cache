@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "LJVluHq5nlDgEC42ERHC9QrYMEIPKxR7JIEcw1oUaynqg0Y735whQTDG4kWYKADMKCirBRPXYa9iVmThQBZKzg==",
+  "dgSpecHash": "olXa/1VrbxHOTOAWorEBTZr5lFMiJgFcoTbRsAZzp0zz6iQEIvuqVqpZ5gxwrufIj4ZNzL6LpyecTG5clsE/iw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\carlw\\source\\repos\\ABSA Assignment\\ContactsService\\ContactsService\\Contacts.Service.csproj",
+  "projectFilePath": "C:\\Users\\carlw\\source\\repos\\ABSA Assignment\\Contacts\\ContactsService\\Contacts.Service.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\carlw\\.nuget\\packages\\microsoft.csharp\\4.0.1\\microsoft.csharp.4.0.1.nupkg.sha512",
     "C:\\Users\\carlw\\.nuget\\packages\\microsoft.dotnet.platformabstractions\\2.0.4\\microsoft.dotnet.platformabstractions.2.0.4.nupkg.sha512",

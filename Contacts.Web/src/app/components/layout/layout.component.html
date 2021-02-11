@@ -1,0 +1,17 @@
+<mat-sidenav-container class="example-container">
+    <mat-sidenav mode="side" opened>
+        <div (click)="addEntry()" class="entry-item"><mat-icon aria-hidden="false" aria-label="Example home icon">add</mat-icon> Add Entry</div>
+        <mat-divider></mat-divider>
+        <input (keydown)="onKeydown($event)">
+        <mat-divider></mat-divider>
+        <div *ngFor="let entry of entries">
+            <app-entry-item [entry]="entry" [routerLink]="['/entry', entry.id]">></app-entry-item>
+        </div>
+    </mat-sidenav>
+    <mat-sidenav-content>
+        <div class="entry-form">
+            <router-outlet></router-outlet>
+        </div>
+    </mat-sidenav-content>
+</mat-sidenav-container>
+

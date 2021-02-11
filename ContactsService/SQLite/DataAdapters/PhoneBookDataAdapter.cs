@@ -52,5 +52,23 @@ namespace Contacts.Service.SQLite.DataAdapters
         {
             return connection.Get<PhoneBook>("SELECT * FROM [PhoneBook]");
         }
+
+        private PhoneBook CreateDefaultPhoneBook(IDatabaseConnection connection)
+        {
+            var lInserted = Insert("DEFAULT", connection);
+            return lInserted;
+        }
+
+        public PhoneBook GetDefaultPhoneBook(IDatabaseConnection connection)
+        {
+            var lFound = GetByName("DEFAULT", connection);
+            if (lFound == null)
+            {
+                lFound = CreateDefaultPhoneBook(connection);
+            }
+            return lFound;
+        }
+
+
     }
 }

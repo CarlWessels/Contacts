@@ -1,0 +1,29 @@
+<mat-card class="example-card" >
+    <mat-card-header>
+      <div mat-card-avatar class="example-header-image"></div>
+      <mat-card-title>New Entry</mat-card-title>
+    </mat-card-header>
+    <mat-card-content>
+        <form class="example-form">
+            <mat-grid-list cols="1" rowHeight="100px">
+                <mat-grid-tile>
+                    <mat-form-field class="example-full-width">
+                        <mat-label>First Name</mat-label>
+                        <input name="entryName" [(ngModel)]="entry.name" matInput value="{{entry.name}}" placeholder="First name">
+                      </mat-form-field>
+                </mat-grid-tile>
+                
+                <mat-grid-tile>
+                    <mat-form-field class="example-full-width">
+                        <mat-label>Cellphone no.</mat-label>
+                        <input name="phoneNumber" matInput placeholder="Phone no." value="{{entry.phoneNumber}}">
+                    </mat-form-field>
+                </mat-grid-tile>
+            </mat-grid-list>
+          </form>
+    </mat-card-content>
+    <mat-card-actions>
+      <button (click)="save()" mat-button>SAVE</button>
+      <button mat-button (click)="cancel()">CANCEL</button>
+    </mat-card-actions>
+  </mat-card>

@@ -3874,11 +3874,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\carlw\\source\\repos\\ABSA Assignment\\ContactsService\\ContactsService\\Contacts.Service.csproj",
+      "projectUniqueName": "C:\\Users\\carlw\\source\\repos\\ABSA Assignment\\Contacts\\ContactsService\\Contacts.Service.csproj",
       "projectName": "Contacts.Service",
-      "projectPath": "C:\\Users\\carlw\\source\\repos\\ABSA Assignment\\ContactsService\\ContactsService\\Contacts.Service.csproj",
+      "projectPath": "C:\\Users\\carlw\\source\\repos\\ABSA Assignment\\Contacts\\ContactsService\\Contacts.Service.csproj",
       "packagesPath": "C:\\Users\\carlw\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\carlw\\source\\repos\\ABSA Assignment\\ContactsService\\ContactsService\\obj\\",
+      "outputPath": "C:\\Users\\carlw\\source\\repos\\ABSA Assignment\\Contacts\\ContactsService\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Microsoft\\Xamarin\\NuGet\\"
@@ -3899,8 +3899,8 @@
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
           "projectReferences": {
-            "C:\\Users\\carlw\\source\\repos\\ABSA Assignment\\ContactsService\\Contacts.Common\\Contacts.Common.csproj": {
-              "projectPath": "C:\\Users\\carlw\\source\\repos\\ABSA Assignment\\ContactsService\\Contacts.Common\\Contacts.Common.csproj"
+            "C:\\Users\\carlw\\source\\repos\\ABSA Assignment\\Contacts\\Contacts.Common\\Contacts.Common.csproj": {
+              "projectPath": "C:\\Users\\carlw\\source\\repos\\ABSA Assignment\\Contacts\\Contacts.Common\\Contacts.Common.csproj"
             }
           }
         }

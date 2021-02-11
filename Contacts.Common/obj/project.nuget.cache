@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "e0gVk3AnkoFU27/+lSGS/TXtGPTAT6l6qsIzxmSbkjy/JPJaKrA7/iBln2KX32xXovWm/uxwTf4cYb751q9cPw==",
+  "dgSpecHash": "TN8U+qsR5v1ghAB6SbcZMNhmgKLnWCds9kPBhlOJI39yejtv+bs01z44n7e0GTwymnlrmYWw39ZNRoeaoiKrNg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\carlw\\source\\repos\\ABSA Assignment\\ContactsService\\Contacts.Common\\Contacts.Common.csproj",
+  "projectFilePath": "C:\\Users\\carlw\\source\\repos\\ABSA Assignment\\Contacts\\Contacts.Common\\Contacts.Common.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\carlw\\.nuget\\packages\\sqlite-net-pcl\\1.7.335\\sqlite-net-pcl.1.7.335.nupkg.sha512",
     "C:\\Users\\carlw\\.nuget\\packages\\sqlitepclraw.bundle_green\\2.0.3\\sqlitepclraw.bundle_green.2.0.3.nupkg.sha512",

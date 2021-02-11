@@ -32,10 +32,11 @@ namespace Contacts.Service.SQLite.DataAdapters
             return results;
         }
 
-
         public List<Entry> GetByPhoneBook(Guid phoneBookId, IDatabaseConnection connection)
         {
             return connection.Get<Entry>("SELECT * FROM [Entry] WHERE PhoneBookId = ?", phoneBookId);
         }
+
+        
     }
 }

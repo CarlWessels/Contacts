@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\carlw\\source\\repos\\ABSA Assignment\\ContactsService\\Contacts.Common\\Contacts.Common.csproj": {}
+    "C:\\Users\\carlw\\source\\repos\\ABSA Assignment\\Contacts\\Contacts.Common\\Contacts.Common.csproj": {}
   },
   "projects": {
-    "C:\\Users\\carlw\\source\\repos\\ABSA Assignment\\ContactsService\\Contacts.Common\\Contacts.Common.csproj": {
+    "C:\\Users\\carlw\\source\\repos\\ABSA Assignment\\Contacts\\Contacts.Common\\Contacts.Common.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\carlw\\source\\repos\\ABSA Assignment\\ContactsService\\Contacts.Common\\Contacts.Common.csproj",
+        "projectUniqueName": "C:\\Users\\carlw\\source\\repos\\ABSA Assignment\\Contacts\\Contacts.Common\\Contacts.Common.csproj",
         "projectName": "Contacts.Common",
-        "projectPath": "C:\\Users\\carlw\\source\\repos\\ABSA Assignment\\ContactsService\\Contacts.Common\\Contacts.Common.csproj",
+        "projectPath": "C:\\Users\\carlw\\source\\repos\\ABSA Assignment\\Contacts\\Contacts.Common\\Contacts.Common.csproj",
         "packagesPath": "C:\\Users\\carlw\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\carlw\\source\\repos\\ABSA Assignment\\ContactsService\\Contacts.Common\\obj\\",
+        "outputPath": "C:\\Users\\carlw\\source\\repos\\ABSA Assignment\\Contacts\\Contacts.Common\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\"
