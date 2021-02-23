@@ -23,7 +23,6 @@ namespace Contacts.Service.Controllers
             _connection = connection;
             _logger = logger;
             _phoneBookDA = phoneBookDA;
-
         }
 
         [HttpGet]
@@ -32,5 +31,21 @@ namespace Contacts.Service.Controllers
             return _phoneBookDA.GetAll(_connection);
         }
 
+        [HttpGet]
+        public PhoneBook Get(Guid id)
+        {
+
+            var phoneBook = _phoneBookDA.Get(id, _connection);
+            return phoneBook;
+        }
+
+        [HttpPost]
+        public Guid Insert([FromBody] PhoneBook phoneBook)
+        {
+            var inserted = _phoneBookDA.Insert(phoneBook.Name, _connection);
+            return inserted.Id;
+        }
+
+        
     }
 }

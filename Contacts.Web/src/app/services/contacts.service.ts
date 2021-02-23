@@ -18,14 +18,13 @@ export class ContactsService {
   }
 
   addEntry(entry: Entry) {
-
     entry.id = "00000000-0000-0000-0000-000000000000";
     entry.phonebookId = "00000000-0000-0000-0000-000000000000";
     return this.http.post<string>("https://localhost:5001/entry/insert", entry, {headers: this.headers});
   }
 
   getEntry(entryId: string) {
-    return this.http.get<Entry>("https://localhost:5001/entry/get?entryId=" + entryId, {headers: this.headers});
+    return this.http.get<Entry>("https://localhost:5001/entry?entryId=" + entryId, {headers: this.headers});
   }
 
   searchEntries(searchText: string ){
@@ -33,6 +32,6 @@ export class ContactsService {
       searchText: searchText,
       phoneBookId: "00000000-0000-0000-0000-000000000000"
     };
-    return this.http.post<Array<Entry>>("https://localhost:5001/entry/Search", entrySearch, {headers: this.headers});
+    return this.http.post<Array<Entry>>("https://localhost:5001/entrySearch/search", entrySearch, {headers: this.headers});
   }
 }
